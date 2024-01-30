@@ -10,15 +10,10 @@ fieldset{
     border-radius: 1em;
 }
 label{
-    width: 50%;
+    width:200px;
+    display: inline-block;
 }
-input{
-    width: 50%;
-}
-.element{
-    display: flex;
-    flex-direction: column;
-}
+
 .champ{
     display: flex;
 display: inline;
