@@ -18,3 +18,17 @@ label{
     display: flex;
 display: inline;
 }
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+fieldset>div{
+    
+    display: block;
+    margin: 0.5em;
+
+}
+input{
+    border-radius: 0.5em;
+}

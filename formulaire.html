@@ -11,47 +11,51 @@
 <body>
     <h1>Formularie d'inscription</h1>
     <h1>Votre compte configurer en deux minute !</h1>
-    <form action="">
+    <form action="" id="form1">
 
 
         <fieldset class="formulaire">
             <legend>Éta cyvile</legend>
-            
-                <label for="nom" >Nom</label>
+            <div>
+                <label for="nom">Nom</label>
                 <input type="text" id="nom" name="nom" required class="champ">
-            
-            
+            </div>
+            <div>
+
                 <label for="prenom">Prenom</label>
                 <input type="text" id="prenom" name="prenom" require>
-            
-            
+            </div>
+            <div>
+
 
                 <label for="naissance">Date de naissance</label>
                 <input type="date" id="naissance" name="naissance" required>
-            
+            </div>
         </fieldset>
         <fieldset class="formulaire">
             <legend>Information de contact</legend>
-            
+            <div>
                 <label for="mail">Adresse mail</label>
                 <input type="email" id="mail" name="mail" required>
-            
-            
+            </div>
+            <div>
+
 
                 <label for="telephone">Téléophone</label>
                 <input type="tel" id="telephone" name="telephone" required>
-            
+            </div>
 
 
         </fieldset>
         <fieldset class="formulaire">
-            
+            <div>
                 <input type="checkbox" id="condition" required>
                 <label for="condition">j'accepte les <a href="">condition d'utilisation</a></label>
-            
+            </div>
+            <div>
 
-            <button type="submit">s'inscrir</button>
-
+                <button type="submit">s'inscrir</button>
+            </div>
         </fieldset>
 
     </form>
