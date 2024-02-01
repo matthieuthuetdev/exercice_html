@@ -8,6 +8,7 @@ h1 {
     text-align: center;
     padding-top: 1em;
     padding-bottom: 1em;
+    /* width: 30em; */
 }
 
 main {
@@ -17,13 +18,14 @@ main {
     margin-right: auto;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 
 
 }
 
 .chat {
 
-    width: 33%;
+    width: 25%;
 
 
 }
@@ -33,7 +35,7 @@ h2 {
 }
 
 img {
-    max-width: 30em;
+    max-width: 22em;
 }
 
 .chat p {
