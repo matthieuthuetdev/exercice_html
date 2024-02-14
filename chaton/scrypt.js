@@ -7,9 +7,9 @@ label.textContent = "font open-dis"
 const span = document.createElement("span")
 span.appendChild(checkbox)
 span.appendChild(label)
-document.body.appendChild(span)
-
-
+document.header.append(span)
+const h1 = document.querySelector("h1")
+const header 
 const body = document.querySelector("body")
 const btn = document.querySelector("#switch_font")
 .addEventListener("click", function () {
