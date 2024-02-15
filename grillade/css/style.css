@@ -3,28 +3,30 @@ body {
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows:auto;
     grid-gap: 1em;
+    height: 100vh;
 }
 
 header {
-    background-color: #BECAF6;
 
     grid-column: 1/-1;
     grid-row-start: 1;
     display:grid;
     grid-template-columns:5fr 2fr;
-    grid-template-rows:auto;
-    grid-gap: 1em;
+    grid-template-rows: minmax(150px,auto);
+    grid-gap: 20px;
 
 }
-header h1 {
+header>h1 {
     grid-column:1/2 ;
     background-color: #BECAF6;
     grid-row-start: 1;
     grid-row-end:2;
+    margin-top: 0px;
+    margin-bottom: 0px;
     
 }
 
-header aside {
+header>aside {
     grid-column:2/3 ;
     background-color: #BECAF6;
     grid-row-start: 1;
@@ -35,6 +37,8 @@ header aside {
 nav {
     grid-column-start: 1;
     grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 5;
     background-color: #BECAF6;
     
     
@@ -43,18 +47,18 @@ nav {
 article {
     display: flex;
     column-count: 2;
-    grid-row: 2;
+    flex-direction: column;
 }
 
 section {
-    background-color: white;
-
+    height: 10em;
 }
 
 footer {
     grid-column-start: 3;
-    grid-column-end: -1;
-    grid-row: 4;
+    grid-column-end: 8;
+    grid-row:4/5;
+    background: #BECAF6;
 }
 
 
