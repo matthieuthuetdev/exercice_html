@@ -1,3 +1,8 @@
+// déclaration des balise priinsipale
+const body = document.querySelector("body")
+const header = document.querySelector("header")
+const main = document.querySelector("main")
+
 // génération de la case à coché.
 const checkbox = document.createElement("input")
 checkbox.setAttribute("type", "checkbox")
@@ -9,8 +14,6 @@ const span = document.createElement("span")
 document.body.append(span)
 const h1 = document.createElement("h1")
 h1.textContent = "flexbox - card layout"
-const header = document.querySelector("header")
-const main = document.querySelector("main")
 // création du premier article dynamiquement.
 const article_1 = document.createElement("article")
 article_1.setAttribute("class", "chat")
@@ -63,7 +66,6 @@ article_3.appendChild(h2_3)
 article_3.appendChild(p_3)
 
 // traitement de la case à coché.
-const body = document.querySelector("body")
 const btn = document.querySelector("#switch_font")
   .addEventListener("click", function () {
     body.classList.toggle("dis");
