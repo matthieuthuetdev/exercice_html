@@ -1,0 +1,8 @@
+rticle_2.setAttribute("class", "chat")
+const img2 = document.createElement("img")
+img2.setAttribute("src","./image/cat2.jpg")
+img2.setAttribute("alt","cette image représante un chat")
+const h2_2 = document.createElement("h2")
+h2_2.textContent = "Wiskey"
+const p_2 = document.createElement("p")
+p_2.textContent = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit consequuntur nihil quia recusandae earum quidem numquam est distinctio ipsam ratione, blanditiis sequi, magni quo tempora aperiam sunt temporibus voluptatibus quis."

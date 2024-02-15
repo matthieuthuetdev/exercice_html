@@ -11,6 +11,7 @@ const h1 = document.createElement("h1")
 h1.textContent = "flexbox - card layout"
 const header = document.querySelector("header")
 const main = document.querySelector("main")
+// création du premier article dynamiquement.
 const article_1 = document.createElement("article")
 article_1.setAttribute("class", "chat")
 const img1 = document.createElement("img")
@@ -20,7 +21,17 @@ const h2_1 = document.createElement("h2")
 h2_1.textContent = "Wiskey"
 const p_1 = document.createElement("p")
 p_1.textContent = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit consequuntur nihil quia recusandae earum quidem numquam est distinctio ipsam ratione, blanditiis sequi, magni quo tempora aperiam sunt temporibus voluptatibus quis."
-
+// création du deuxième article dynamiquement
+const article_2 = document.createElement("article")
+article_2.setAttribute("class", "chat")
+const img2 = document.createElement("img")
+img2.setAttribute("src","./image/cat2.jpg")
+img2.setAttribute("alt","cette image représante un chat")
+const h2_2 = document.createElement("h2")
+h2_2.textContent = "Wiskey"
+const p_2 = document.createElement("p")
+p_2.textContent = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit consequuntur nihil quia recusandae earum quidem numquam est distinctio ipsam ratione, blanditiis sequi, magni quo tempora aperiam sunt temporibus voluptatibus quis."
+// création du troisième article dynamiquement.
 // affichage sur la page.
 header.appendChild(h1)
 span.appendChild(checkbox)
@@ -30,6 +41,12 @@ main.appendChild(article_1)
 article_1.appendChild(img1)
 article_1.appendChild(h2_1)
 article_1.appendChild(p_1)
+
+main.appendChild(article_2)
+article_2.appendChild(img2)
+article_2.appendChild(h2_2)
+article_2.appendChild(p_2)
+
 // traitement de la case à coché.
 const body = document.querySelector("body")
 const btn = document.querySelector("#switch_font")
