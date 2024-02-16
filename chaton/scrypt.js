@@ -1,6 +1,6 @@
 // déclaration des balise priinsipale
 const body = document.querySelector("body")
-const header = document.querySelector("header")
+const header = document.createElement("header")
 const main = document.querySelector("main")
 
 // génération de la case à coché.
@@ -46,6 +46,7 @@ const p_3 = document.createElement("p")
 p_3.textContent = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit consequuntur nihil quia recusandae earum quidem numquam est distinctio ipsam ratione, blanditiis sequi, magni quo tempora aperiam sunt temporibus voluptatibus quis."
 
 // affichage sur la page.
+body.appendChild(header)
 header.appendChild(h1)
 span.appendChild(checkbox)
 span.appendChild(label)
