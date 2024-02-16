@@ -1,0 +1,10 @@
+body{
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: minmax(10px, auto);
+    gap: 1rem;
+}
+#s1{
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    background-color: blue;
+}
