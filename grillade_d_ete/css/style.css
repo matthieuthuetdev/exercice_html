@@ -1,13 +1,17 @@
+body{
+    margin: 0px;
+}
 main{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: minmax(2rem, auto);
     grid-gap: 1rem;
-    font-size: 30px;
     height: 100vh ;
 }
 section{
-    background-color: yellow;
+    font-size: 5rem;
+    background-color: #CCCD34;
+    color: white;
 }
 #s1{
     grid-column: 1/-1;
