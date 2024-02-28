@@ -1,9 +1,13 @@
+@media qu {
+    
+}
 body {
     display:grid;
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows:auto;
     grid-gap: 1em;
     height: 100vh;
+    margin: 0px;
 }
 
 header {

@@ -1,7 +1,7 @@
 // déclaration des balise priinsipale
 const body = document.querySelector("body")
 const header = document.createElement("header")
-const main = document.querySelector("main")
+const main = document.createElement("main")
 
 // génération de la case à coché.
 const checkbox = document.createElement("input")
@@ -51,6 +51,7 @@ header.appendChild(h1)
 span.appendChild(checkbox)
 span.appendChild(label)
 header.appendChild(span)
+body.appendChild(main)
 main.appendChild(article_1)
 article_1.appendChild(img1)
 article_1.appendChild(h2_1)
@@ -65,9 +66,10 @@ main.appendChild(article_3)
 article_3.appendChild(img3)
 article_3.appendChild(h2_3)
 article_3.appendChild(p_3)
-
+body.style.rotate("10deg")
 // traitement de la case à coché.
 const btn = document.querySelector("#switch_font")
   .addEventListener("click", function () {
     body.classList.toggle("dis");
   });
+body.style.backgroundColor = "black"
