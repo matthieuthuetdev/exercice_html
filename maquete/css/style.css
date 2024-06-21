@@ -1,9 +1,7 @@
-html{
+html {
   font-size: 62.5%;
 }
 header {
-  
-
   width: 100%;
 }
 h1 {
@@ -14,23 +12,23 @@ h1 {
   font-size: 5rem;
   margin: 0px;
 }
-nav{
-  background-color: #7D52A2;
+nav {
+  background-color: #7d52a2;
 }
-ul{
+ul {
   list-style-type: none;
   padding-top: 10px;
   padding-bottom: 10px;
   margin: 0px;
   display: flex;
   justify-content: space-evenly;
-  
 }
-li{
+li {
   display: inline;
   font-size: 2rem;
-  background-color: #262A48;
+  background-color: #262a48;
 }
-#active{
-  background-color: #D295BF;
+li:hover {
+  background-color: #d295bf;
+  transition: 1s ;
 }
